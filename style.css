@@ -1,0 +1,17 @@
+.big_img {
+    width: 100%;
+
+} 
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading button {
+    float: right;
+    border: solid 2px black;
+    font-size: 25px;
+}
+#start {
+    font-size: 25px;
+
+}
