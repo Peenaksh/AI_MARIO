@@ -52,8 +52,11 @@ var gameConfig={
 /*====================================
 =            Game Status             =
 ====================================*/
-
+nosex = ""
+nosey = ""
+game_status = ""
 function game(){
+  console.log("nosex = " + nosex + "nosey = " +nosey)
 
   instializeInDraw();
   moveEnvironment(mario);
@@ -111,6 +114,10 @@ function game(){
     changeGameStatud(mario)
   }
 }  
+function startgame(){
+  game_status = "start";
+  document.getElementById("status").innerHTML = "game is loading";
+}
 
 
 // change game status if any key is pressed
